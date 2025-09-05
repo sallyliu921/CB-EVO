@@ -1,0 +1,9 @@
+build*
+todo.txt
+sixteen.blif
+twenty.blif
+twentythree.blif
+.xlsx
+.csv
+exp_log/
+exp/greedy

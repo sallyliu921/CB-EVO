@@ -1,0 +1,336 @@
+######################## BASIC ############################
+Circuit_Name:  mapped_max
+Number_of_Nodes:  1281
+Number_of_Edges: 3378
+Maximum_Delay: 44
+Number_of_PI: 512
+Number_of_PO: 130
+Number_of_Combinational_Nodes: 769
+Number_of_DFF: 0
+kin: 6
+======================== Cluster_Summary ==================
+Number_of_nodes: ( 190 171 159 167 150 147 147 150 )
+Number_of_pi: ( 28 80 68 80 64 64 64 64 )
+Number_of_dff: ( 0 0 0 0 0 0 0 0 )
+Number_of_intra_cluster_edges: ( 659 296 335 313 315 303 321 317 )
+Number_of_inter_cluster_edges: ( 277 98 77 279 76 79 72 80 )
+Partitioned_scaled_cost: 0.893306
+======================== DEGREE ============================
+Avg_fanin_comb: 4.39272 (1.34028)
+Avg_fanout: 2.637 (8.68533)
+Avg_fanout_comb: 2.52016 (11.201)
+Avg_fanout_pi: 2.8125 (0.496078)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 130
+Number_of_high_degree_comb: 6
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 6
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 512 118 78 18 4 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 10 251 57 41 8 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 130 )
+Input_shape: ( 0 492 374 106 22 12 12 10 12 12 10 12 12 12 12 12 12 12 12 12 12 12 52 754 237 202 44 24 6 5 6 6 5 6 6 6 6 6 6 6 6 6 6 6 777 )
+Output_shape: ( 1440 152 86 18 4 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 10 268 848 60 303 8 4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 130 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 )
+Edge_length_distribution: ( 0 1356 473 92 31 14 13 15 14 14 20 26 23 17 15 15 15 15 15 270 0 387 42 496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 130 331 204 582 20 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 3 )
+#################### Clusters ######################
+Number_of_Clusters: 8
+#################### Cluster 0 ######################
+Number_of_Nodes: 190
+Number_of_Intra_cluster_edges: 659
+Number_of_Inter_cluster_edges: 277
+Number_of_PI: 28
+Number_of_PO: 130
+Number_of_Comb: 162
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 266
+Number_of_Inter_cluster_output_edges: 11
+======================== DEGREE ============================
+Avg_fanin_comb: 5.70988 (0.85838)
+Avg_fanout: 3.52632 (18.5653)
+Avg_fanout_comb: 3.61728 (20.097)
+Avg_fanout_pi: 3 (1.30931)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 130
+Number_of_high_degree_comb: 4
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 4
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 28 6 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 8 9 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 130 )
+Input_shape: ( 0 32 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 44 28 10 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 777 )
+Output_shape: ( 84 14 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 18 150 2 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 )
+Intra_cluster_edge_length_distribution: ( 0 194 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 262 0 143 36 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 8 0 242 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 130 9 19 20 0 4 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 )
+#################### Cluster 1 ######################
+Number_of_Nodes: 171
+Number_of_Intra_cluster_edges: 296
+Number_of_Inter_cluster_edges: 98
+Number_of_PI: 80
+Number_of_PO: 0
+Number_of_Comb: 91
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 43
+Number_of_Inter_cluster_output_edges: 55
+======================== DEGREE ============================
+Avg_fanin_comb: 3.72527 (1.25852)
+Avg_fanout: 2.05263 (0.803961)
+Avg_fanout_comb: 1.65934 (0.814967)
+Avg_fanout_pi: 2.5 (0.5)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 3
+Number_of_high_degree_comb: 20
+Number_of_high_degree_pi: 40
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 80 16 8 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 8 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Input_shape: ( 0 48 40 12 12 12 12 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120 24 26 6 6 6 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Output_shape: ( 200 16 8 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 8 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 97 55 15 15 14 12 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 0 0 2 4 0 0 0 2 4 0 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 51 60 60 )
+#################### Cluster 2 ######################
+Number_of_Nodes: 159
+Number_of_Intra_cluster_edges: 335
+Number_of_Inter_cluster_edges: 77
+Number_of_PI: 68
+Number_of_PO: 0
+Number_of_Comb: 91
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 37
+Number_of_Inter_cluster_output_edges: 40
+======================== DEGREE ============================
+Avg_fanin_comb: 4.08791 (1.29791)
+Avg_fanout: 2.35849 (0.892196)
+Avg_fanout_comb: 1.87912 (0.923862)
+Avg_fanout_pi: 3 (0)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 3
+Number_of_high_degree_comb: 0
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 68 20 8 8 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 34 9 4 4 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 )
+Input_shape: ( 0 80 40 48 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 0 102 36 20 22 6 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 )
+Output_shape: ( 204 24 12 8 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 102 11 6 4 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 147 64 37 4 0 0 0 0 1 3 8 1 2 0 0 0 0 0 0 0 0 0 68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 37 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 45 12 102 )
+#################### Cluster 3 ######################
+Number_of_Nodes: 167
+Number_of_Intra_cluster_edges: 313
+Number_of_Inter_cluster_edges: 279
+Number_of_PI: 80
+Number_of_PO: 0
+Number_of_Comb: 87
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 17
+Number_of_Inter_cluster_output_edges: 262
+======================== DEGREE ============================
+Avg_fanin_comb: 3.7931 (1.38247)
+Avg_fanout: 3.44311 (13.4019)
+Avg_fanout_comb: 4.49425 (18.5006)
+Avg_fanout_pi: 2.3 (0.458258)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 125
+Number_of_high_degree_comb: 2
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 2
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 80 12 6 0 0 0 0 0 2 2 2 2 2 2 0 0 0 0 0 0 0 0 2 40 7 2 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 )
+Input_shape: ( 0 36 28 0 0 0 0 0 12 12 10 12 12 12 0 0 0 0 0 0 0 0 8 120 23 10 0 0 0 0 6 6 5 6 6 6 0 0 0 0 0 0 0 0 0 )
+Output_shape: ( 184 14 6 0 0 0 0 0 2 2 2 2 2 2 0 0 0 0 0 0 0 0 250 94 7 2 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 121 28 0 0 0 1 7 14 13 15 14 12 8 0 0 0 0 0 0 0 0 0 80 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 8 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 214 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 4 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 43 86 34 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 )
+#################### Cluster 4 ######################
+Number_of_Nodes: 150
+Number_of_Intra_cluster_edges: 315
+Number_of_Inter_cluster_edges: 76
+Number_of_PI: 64
+Number_of_PO: 0
+Number_of_Comb: 86
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 41
+Number_of_Inter_cluster_output_edges: 35
+======================== DEGREE ============================
+Avg_fanin_comb: 4.13953 (1.06926)
+Avg_fanout: 2.33333 (0.970681)
+Avg_fanout_comb: 1.83721 (1.03273)
+Avg_fanout_pi: 3 (0)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 4
+Number_of_high_degree_comb: 4
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 64 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 32 8 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 )
+Input_shape: ( 0 72 76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 12 0 0 0 96 36 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 6 0 0 0 )
+Output_shape: ( 192 20 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 100 8 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 139 88 0 0 0 0 0 0 0 0 0 0 0 0 3 13 8 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 35 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 50 4 92 4 )
+#################### Cluster 5 ######################
+Number_of_Nodes: 147
+Number_of_Intra_cluster_edges: 303
+Number_of_Inter_cluster_edges: 79
+Number_of_PI: 64
+Number_of_PO: 0
+Number_of_Comb: 83
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 35
+Number_of_Inter_cluster_output_edges: 44
+======================== DEGREE ============================
+Avg_fanin_comb: 4.07229 (1.02714)
+Avg_fanout: 2.36054 (0.961473)
+Avg_fanout_comb: 1.86747 (1.03866)
+Avg_fanout_pi: 3 (0)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 4
+Number_of_high_degree_comb: 4
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 64 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 32 8 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 )
+Input_shape: ( 0 72 76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 0 0 96 36 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 )
+Output_shape: ( 192 20 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 100 8 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 136 88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 10 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 4 2 2 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 47 4 92 4 )
+#################### Cluster 6 ######################
+Number_of_Nodes: 147
+Number_of_Intra_cluster_edges: 321
+Number_of_Inter_cluster_edges: 72
+Number_of_PI: 64
+Number_of_PO: 0
+Number_of_Comb: 83
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 37
+Number_of_Inter_cluster_output_edges: 35
+======================== DEGREE ============================
+Avg_fanin_comb: 4.31325 (1.23139)
+Avg_fanout: 2.42177 (0.902944)
+Avg_fanout_comb: 1.9759 (0.993666)
+Avg_fanout_pi: 3 (0)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 4
+Number_of_high_degree_comb: 4
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 64 16 6 8 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 32 7 4 3 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 )
+Input_shape: ( 0 76 30 46 10 0 0 0 0 0 0 0 0 0 0 12 0 0 0 0 0 0 0 96 34 20 16 12 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 )
+Output_shape: ( 192 22 10 8 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 100 8 6 3 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 138 54 40 12 0 0 0 0 0 2 3 8 0 0 0 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 35 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 38 13 92 4 )
+#################### Cluster 7 ######################
+Number_of_Nodes: 150
+Number_of_Intra_cluster_edges: 317
+Number_of_Inter_cluster_edges: 80
+Number_of_PI: 64
+Number_of_PO: 0
+Number_of_Comb: 86
+Number_of_DFF: 0
+Number_of_Latched: 0
+Number_of_Inter_cluster_input_edges: 43
+Number_of_Inter_cluster_output_edges: 37
+======================== DEGREE ============================
+Avg_fanin_comb: 4.18605 (1.11555)
+Avg_fanout: 2.36 (0.974885)
+Avg_fanout_comb: 1.88372 (1.06114)
+Avg_fanout_pi: 3 (0)
+Avg_fanout_dff: 0 (0)
+Maximum_fanout: 4
+Number_of_high_degree_comb: 6
+Number_of_high_degree_pi: 0
+Number_of_high_degree_dff: 0
+Number_of_10plus_degree_comb: 0
+Number_of_10plus_degree_pi: 0
+Number_of_10plus_degree_dff: 0
+======================== SHAPE ============================
+Node_shape: ( 64 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 32 8 8 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 )
+Input_shape: ( 0 76 74 0 0 0 0 0 0 0 0 0 0 0 0 0 12 12 0 0 0 0 0 96 38 40 0 0 0 0 0 0 0 0 0 0 0 0 6 6 0 0 0 0 0 )
+Output_shape: ( 192 22 16 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 102 8 8 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 )
+Latched_shape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+POshape: ( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Intra_cluster_edge_length_distribution: ( 0 147 84 0 0 0 0 0 0 0 0 0 0 3 11 8 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_input_edge_length_distribution: ( 0 35 0 0 0 0 0 0 0 0 0 0 0 2 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Inter_cluster_output_edge_length_distribution: ( 0 3 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
+Fanout_distribution: ( 0 48 6 90 6 )
+-------------------- Inter_cluster_adjacentcy_matrix_to_combinational_nodes --------------------
+
+0 0 0 11 0 0 0 0 
+46 0 0 3 0 0 0 6 
+34 0 0 3 0 0 3 0 
+54 43 37 0 32 32 32 32 
+32 0 0 0 0 3 0 0 
+36 0 0 0 6 0 0 2 
+32 0 0 0 0 0 0 3 
+32 0 0 0 3 0 2 0 
+
+
+-------------------- Inter_cluster_adjacentcy_matrix_to_dffs -----------------------------------
+
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+
+

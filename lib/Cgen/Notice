@@ -1,0 +1,39 @@
+General terms and conditions for use of CCIRC and CGEN
+
+1.
+ Copyright 2003 by Paul D. Kundarewich, Michael Hutton, Jonathan Rose   
+ and the University of Toronto. 
+ Use is permitted, provided that this attribution is retained  	
+ and no part of the code is re-distributed or included in any commercial
+ product except by written agreement with the above parties.             
+                                                                         
+ For more information, contact us directly:                              
+	Paul D. Kundarewich (paul.kundarewich@utoronto.ca)
+    Jonathan Rose  (jayar@eecg.toronto.edu)                              
+    Mike Hutton  (mdhutton@cs.toronto.edu, mdhutton@eecg.toronto.edu)    
+    Department of Electrical and Computer Engineering                    
+    University of Toronto, 10 King's College Rd.,                        
+    Toronto, Ontario, CANADA M5S 1A4                                     
+    Phone: (416) 978-6992  Fax: (416) 971-2286                           
+
+
+
+2. 
+All users must be "registered."   That is, you must tell us that
+you are taking a copy from the ftp site.
+
+3. 
+The software is provided free of charge, subject to the above 
+copyright.  However, any donations in the form of research grants to
+promote further research and development on the tools will be gladly 
+accepted (anonymously or with attribution on our future publications).  
+Donations in the form of circuits and/or CCIRC statistics on your 
+circuits will also contribute to the effectiveness of the tool,
+and we welcome any interraction along these lines.
+
+4.
+By taking a copy of the software 
+you acknowledge that you have read and understood this notice, and 
+agree to abide fully with all conditions stated here.
+
+Paul Kundarewich, March 2003
