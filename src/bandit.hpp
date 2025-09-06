@@ -23,7 +23,7 @@ namespace Bandit{
 
 // Default settings
 tic_toc t_c;
-int search_times = 3;
+int global_search_times = 3;
 int cb_iter = 10;
 double decayRate = 0.4;
 int seq_bandit_length = 0; // Default value is 0, which would be set in main.cpp
@@ -284,8 +284,12 @@ void updateContext(Node& node, CmdManager& manager, const std::vector<int>& sear
     // Default settings
     int numArms = manager.getCurrentMapSize();
     auto cmdsMap = manager.getCurrentTypeToStr();
-    if (initial_flag == 0)
+    int search_times;
+    if (initial_flag == 0){
         search_times = 1;
+    }else{
+        search_times = global_search_times;
+    }
 
     std::unordered_map<Cmd, std::vector<Node>> node_lt_res = node.get_long_term_reward(node, manager, search_times, search_depths);
 
